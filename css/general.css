@@ -8,6 +8,7 @@ html, body {
 
 h1 {
     font-family: var(--h1-font);
+    font-weight: 400;
   }
 
 h2 {
@@ -16,4 +17,73 @@ h2 {
 
 p {
     font-family: var(--p-font);
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+  }
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .nav-links a {
+    color: var(--blue);
+    font-weight: 250;
+  }
+
+  .nav-links a:hover {
+    color: var(--orange);
+  }
+
+  .nav-logo {
+    display: none;
+  }
+
+  .nav-logo svg {
+    width: 250px;
+  }
+
+  .forside-logo svg {
+    max-width: 90%;
+    height: auto;
+    margin-top: 2.5rem;
+  }
+
+  .forside-h2 h2 {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    padding: 2rem 0;
+    margin-top: 2rem;
+    color: var(--orange);
+  }
+
+  .forside-p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+  }
+
+  .cta {
+    display: inline-block;
+    background-color: var(--dark-green);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px rgb(128, 128, 128);
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.cta a {
+    color: var(--white);
+    font-size: 1.2rem;
+}
+
+.cta:hover {
+    background-color: var(--green);
 }
