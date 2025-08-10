@@ -15,8 +15,52 @@ video {
     display: block;
 }
 
-main {
+main, footer {
     max-width: 1300px;
     margin: 0 auto;
     padding: 1rem;
 }
+
+footer {
+    margin-top: 3rem;
+}
+
+footer p {
+    line-height: 1.5rem;
+}
+
+header {
+    padding: 1rem;
+}
+
+@media (min-width: 800px) {
+    .nav-bar {
+        padding: 0 2rem;
+        margin-top: -3rem;
+    }
+
+    .nav-logo {
+      display: block; /* viser logo over 799px */
+    }
+  
+    .nav-links {
+      justify-content: flex-end;
+      gap: 2rem;
+      width: auto;
+    }
+
+    .nav-bar-forside {
+        padding: 2rem;
+        margin-top: -1.55rem;
+    }
+
+    .forside-logo svg {
+        margin-top: -2rem;
+      }
+
+      .forside-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+  }
