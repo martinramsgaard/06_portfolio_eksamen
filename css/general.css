@@ -1,0 +1,19 @@
+html, body {
+    background-color: var(--beige);
+}
+
+* {
+    text-decoration: none;
+  }
+
+h1 {
+    font-family: var(--h1-font);
+  }
+
+h2 {
+    font-family: var(--h2-font);
+}
+
+p {
+    font-family: var(--p-font);
+}
